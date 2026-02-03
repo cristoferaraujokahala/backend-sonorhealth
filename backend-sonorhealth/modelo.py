@@ -27,11 +27,11 @@ print("BAIXANDO DATASET ICBHI 2017 via kagglehub")
 print("="*70)
 
 try:
-    print("🔽 Baixando Respiratory Sound Database...")
+    print("Baixando Respiratory Sound Database...")
     dataset_path = kagglehub.dataset_download("vbookshelf/respiratory-sound-database")
-    print(f"✅ Dataset em: {dataset_path}")
+    print(f"Dataset em: {dataset_path}")
 except Exception as e:
-    print(f"❌ Erro ao baixar: {e}")
+    print(f"Erro ao baixar: {e}")
     dataset_path = None
 
 def find_dataset_files(base_path):
