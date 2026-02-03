@@ -1,0 +1,12 @@
+
+numpy
+pandas
+librosa
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+tqdm
+kagglehub
+soundfile
+numba
