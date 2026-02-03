@@ -61,7 +61,7 @@ def load_diagnosis_mapping(diag_path):
             pid = str(row['Patient ID']).strip()
             diag = str(row['Diagnosis']).strip().lower()
             diagnosis_dict[pid] = diag
-        print(f"✅ {len(diagnosis_dict)} diagnósticos carregados")
+        print(f"{len(diagnosis_dict)} diagnósticos carregados")
         print("Distribuição:", pd.Series(diagnosis_dict.values()).value_counts())
         return diagnosis_dict
     except Exception as e:
